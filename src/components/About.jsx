@@ -53,7 +53,7 @@ const About = () => {
           Java Spring Boot. I'm a quick learner and collaborate closely with clients to
           create efficient, scalable, and user-friendly solutions that solve
           real-world problems. Let's work together to bring your ideas to life! */}
-          Experienced software developer, I am proficient in C# and TypeScript, with a strong command of frameworks like .NET, Nest.js, and Java Spring Boot.
+          Experienced Software Engineer, I am proficient in C# and Java, with a strong command of frameworks like .NET and Java Spring Boot.
           I am adept at rapid learning and thrive in close client collaboration, ensuring we craft efficient, scalable, and user-friendly solutions.
           <br />
           Let's team up, and together, <br />
