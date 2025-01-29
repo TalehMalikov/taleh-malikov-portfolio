@@ -35,7 +35,8 @@ import {
   icbari,
   dia,
   crm,
-  lib
+  lib,
+  hospital
 } from "../assets";
 
 export const navLinks = [
@@ -105,10 +106,10 @@ const technologies = [
     name: "SQL",
     icon: sql,
   },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
   // {
   //   name: "TypeScript",
   //   icon: typescript,
@@ -141,10 +142,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
+  {
+    name: "figma",
+    icon: figma,
+  },
   {
     name: "docker",
     icon: docker,
@@ -178,35 +179,8 @@ const experiences = [
       "Managed and optimized computer networks for peak performance and security",
       "Oversaw server operations, handling installations, configurations, and troubleshooting",
       "Conducted daily research on immersive technologies and tools",
-
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
@@ -238,13 +212,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car leasing",
+    name: "Hospital Management System",
     description:
-      "Reliably API based service for managing customer leasing requests via calling and updating their data on system," +
-      "and both for the company and its partners.",
+      "A system that streamlines hospital operations, enhancing efficiency and improving patient care through automation.",
     tags: [
       {
-        name: ".net",
+        name: "DDD+CLean Architecture",
+        color: "red-text-gradient",
+      },
+      {
+        name: ".Net",
         color: "violet-text-gradient",
       },
       {
@@ -256,8 +233,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    // source_code_link: "https://github.com/",
+    image: hospital,
+    source_code_link: "https://github.com/talehmalikov",
   },
   {
     name: "Customer Relationship Management",
@@ -279,7 +256,7 @@ const projects = [
       },
     ],
     image: crm,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/talehmalikov",
   },
   {
     name: "E-library",
@@ -301,7 +278,7 @@ const projects = [
       },
     ],
     image: lib,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/talehmalikov",
   },
 ];
 

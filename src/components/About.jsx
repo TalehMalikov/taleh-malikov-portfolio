@@ -40,7 +40,7 @@ const About = () => {
   return (
     <>
       <div className='flex flex-col md:flex-row'>
-        <motion.div variants={textVariant()} className='md:mr-8'>
+        <motion.div variants={textVariant()} className='md:mr-8 md:mb-8'>
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
         </motion.div>
@@ -62,9 +62,10 @@ const About = () => {
         <motion.img
           src={profile}  // Replace with the actual URL of your picture
           alt="Taleh"
-          className='w-full md:w-300 h-300 object-cover green-pink-gradient p-[10px] rounded-[30px] shadow-card mt-4 md:mt-0'
+          className='w-[450px] h-[450px] object-cover green-pink-gradient p-[10px] rounded-[30px] shadow-card mt-4 md:mt-0'  // Extra-large size
           variants={fadeIn("", "", 0.1, 1)}
         />
+
       </div>
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>

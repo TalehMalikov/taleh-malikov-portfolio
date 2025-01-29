@@ -31,9 +31,10 @@ import dia from "./company/dia-logo.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import profile from "./profile.png"
+import profile from "./profile-picture.png"
 import crm from "./crm-dashboard-main.png"
 import lib from "./lib.png"
+import hospital from "./hospital-management-system.png"
 
 
 import csharp from "./tech/c-sharp.png";
@@ -88,5 +89,6 @@ export {
   icbari,
   dia,
   crm,
-  lib
+  lib,
+  hospital
 };
